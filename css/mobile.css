@@ -1,0 +1,49 @@
+@media (max-width: 524px) {
+  .banner-inner h1{
+    font-size: 28px;
+  }
+  #nav-bar{
+    padding: 20px 0;
+  }
+  .about-container{
+    padding: 40px;
+  }
+  #job-info .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content;
+    justify-content: center;
+    width: 100vw;
+  }
+  #target{
+    margin-bottom: 40px;
+  }
+  #certificate .container{
+    width: 100vw;
+  }
+  .certification{
+    grid-template-columns: 1fr;
+  }
+  
+  .certification-item img{
+    width: 100%;
+    height: auto;
+  }
+  .certification-item:nth-child(1),.certification-item:nth-child(2){
+    border-bottom: 2px solid rgb(230, 219, 219);
+  }
+  .project{
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  #footer .container ul{
+    padding: 0;
+    margin: 0;
+  }
+  #footer .container i{
+    font-size: 30px;
+  }
+  #footer .container span{
+    display: none;
+  }
+}
